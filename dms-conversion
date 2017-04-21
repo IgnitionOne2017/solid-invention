@@ -1,0 +1,17 @@
+<script language="javascript" type="text/javascript">
+<!--
+si_transact_id=47983;
+si_transaction_amount='<%=revenue%>';
+si_unique_action_id=escape('<%=value%>');
+x2=escape('<%=last%>');
+x1=escape('<%=first%>');
+x3=escape('<%=email%>');
+x4=escape('<%=recipe%>');
+x5=escape('<%=value%>');
+x6=escape('<%=gender%>');
+var now= new Date();
+//-->
+</script>
+<script language="javascript" type="text/javascript">
+document.write('<s'+'cript language="javascript" type="text/javascript" src="'+document.location.protocol+'//dms.netmng.com/si/CM/Tracking/TransactionTracking.aspx?siclientid=101509' + '&DetailDescription=' + si_unique_action_id + '&TransactionAmount=' + si_transaction_amount + '&SICustTransType=' + si_transact_id + '&x2=' + x2 + '&x1=' + x1 + '&x3=' + x3 + '&x4=' + x4 + '&x5=' + x5 + '&x6=' + x6 + '&timecode=' + now.getTime() + '&jscript=1"></s'+'cript>');
+</script>

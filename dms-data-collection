@@ -1,0 +1,15 @@
+(function() {
+        if (document.getElementById
+        && document.createElement) {
+                var dms=document.createElement('SCRIPT');
+                var now = new Date();
+                dms.src=document.location.protocol
+                + '//dms.netmng.com/si/CM/Tracking/ClickTracking.aspx?'
+                + 'siclientid=100367'
+                + '&jscript=1'
+                + '&timecode=' + now.getTime();
+                dms.width=1;
+                dms.height=1;
+                document.body.appendChild(dms);
+        }
+})

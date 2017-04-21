@@ -1,0 +1,14 @@
+<script type='text/javascript'>
+      //Add the Web Tag reference, and track view
+      var _snaq = _snaq || [];
+      _snaq.push(['configureTracker','<host domain>', '<site domain>', '<entity guid>','<debug value>' ]);
+      _snaq.push(['enableCustomAudiences', true, '<host domain for tag man services>']);
+      // If tag will sync with both display and wp use this line
+      _snaq.push(['syncDisplayAndWebsitePersonalizationIds', '<DISPLAY ID>', '<WEBPERSONALIZATION ID>', 'trackPageView']);
+      //else If tag will sync only with display use this line
+      _snaq.push(['syncDisplayId', '<DISPLAY ID>', 'trackPageView']);
+                        
+      (function()
+          {var e=document.createElement("script");e.type="text/javascript";e.async=true;e.defer=true;e.src="https:"==document.location.protocol? "https://d36b3qhhowgh2h.cloudfront.net/js/sp.js": "http://c11.cdn.knotice.net/js/sp.js" ;var sp=document.getElementsByTagName("script")[0];sp.parentNode.insertBefore(e,sp)}
+      )();
+ </script>
